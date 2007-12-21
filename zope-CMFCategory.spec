@@ -15,6 +15,7 @@ Source:     %{Product}-%{version}.tar.bz2
 Requires:   zope
 Obsoletes:  %{Product}
 Buildarch:  noarch
+BuildRoot:  %{_tmppath}/%{name}
 
 %description
 Category objects allow to define classification categories
