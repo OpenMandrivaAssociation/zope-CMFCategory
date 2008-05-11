@@ -2,7 +2,7 @@
 %define product cmfcategory
 %define name    zope-%{Product}
 %define version 0.8
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:		%{name}
 Version:	%{version}
@@ -14,7 +14,6 @@ URL:        http://www.erp5.org
 Source:     %{Product}-%{version}.tar.bz2
 Requires:   zope
 Obsoletes:  %{Product}
-Buildarch:  noarch
 BuildRoot:  %{_tmppath}/%{name}
 
 %description
