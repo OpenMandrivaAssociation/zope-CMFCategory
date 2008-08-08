@@ -2,7 +2,7 @@
 %define product cmfcategory
 %define name    zope-%{Product}
 %define version 0.8
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name:		%{name}
 Version:	%{version}
